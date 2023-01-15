@@ -11,8 +11,7 @@ Console.WriteLine($"Сумма цифр в числе {number} = {numberSum}");
 
 int Sum(int num)
 {
-if(num<0) 
-num *= -1;
+if(num<0) num *= -1;
     int sum = 0;
     for(int i = 0; num > 0; i++)
     {checked 
